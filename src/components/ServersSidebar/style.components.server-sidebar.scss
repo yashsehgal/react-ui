@@ -1,0 +1,45 @@
+
+div.servers-sidebar {
+    background-color: #202225;
+    position: fixed;
+    width: fit-content;
+    height: 100vh;
+    > div.servers-list-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: stretch;
+
+        > button {
+            background-color: #36393f;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            > i {
+                font-size: 24px;
+            }
+            &.home-discord-button-wrapper:hover {
+                border-radius: 32%;
+                background-color: #5865f2;
+            }
+            &.server-cta-button:hover {
+                border-radius: 32%;
+                background-color: #00a149;
+                > i {
+                    color: white;
+                }
+            }
+        }
+        > button.server-cta-button {
+            > i {
+                color: #00a149;
+            }
+        }
+    }
+}
+
+// #5865f2

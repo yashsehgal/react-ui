@@ -19,12 +19,6 @@ export default function ServersSidebar() {
                 <button className="server-cta-button p-2 primary-btn">
                     <i class="fas fa-download"></i>
                 </button>
-                <Link to="/">
-                    <button className="primary-btn home-discord-button-wrapper">H</button>
-                </Link>
-                <Link to="/profile">
-                    <button className="primary-btn home-discord-button-wrapper">P</button>
-                </Link>
             </div>
         </div>
     )

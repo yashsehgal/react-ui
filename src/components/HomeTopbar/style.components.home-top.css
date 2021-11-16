@@ -1,0 +1,19 @@
+div.home-topbar {
+  display: grid;
+  grid-template-columns: 16% auto;
+}
+div.home-topbar > div.friends-status-tabs-wrapper {
+  display: "flex";
+  flex-direction: row;
+}
+div.home-topbar > div.side-section__search-input-wrapper > input.home-search-input {
+  background-color: #202225 !important;
+  padding: 4px;
+  color: gray;
+  padding-left: 8px;
+  font-size: 14px;
+}
+div.home-topbar > div.side-section__search-input-wrapper > input.home-search-input:focus, div.home-topbar > div.side-section__search-input-wrapper > input.home-search-input:hover {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}/*# sourceMappingURL=style.components.home-top.css.map */

@@ -1,0 +1,24 @@
+div.home-topbar {
+    display: grid;
+    grid-template-columns: 16% auto;
+    > div.friends-status-tabs-wrapper {
+        display: 'flex';
+        flex-direction: row;
+    }
+    > div.side-section__search-input-wrapper {
+        > input.home-search-input {
+            background-color: #202225 !important;
+            padding: 4px;
+            color: gray;
+            padding-left: 8px;
+            font-size: 14px;
+            &:focus, &:hover {
+                border-color: transparent !important;
+                box-shadow: none !important;
+            }
+        }
+    }
+    > div.middle-section {
+        
+    }
+}
